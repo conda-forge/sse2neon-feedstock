@@ -15,11 +15,6 @@ source:
 build:
   number: 0
 
-requirements:
-  build:
-  host:
-  run:
-
 tests:
   - script:
       - if: unix
