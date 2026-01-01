@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: sse2neon
-  version: 1.9.0
+  version: "1.9.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/DLTcollab/sse2neon/archive/v${{ version }}.tar.gz
-  sha256: d5340e2d7bad27e4a20acc72b8ad0ec538e5e502980194b691cad2f0ab10cb8a
+  sha256: 6b70e7cb8c5ce4641002b85deaafe97efdf9ade9b49884edeaf678b35f0e132f
 
 build:
   number: 0
